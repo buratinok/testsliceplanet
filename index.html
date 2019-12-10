@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="body">
+<main class="main">
+    <section class="section section__product py-5">
+        <div class="container-fluid container-lg640">
+            <div class="section__title">
+                <h2 class="h2">Одежда для девочек</h2>
+            </div>
+            <div class="row flex-column flex-md-row">
+                <div class="col-12 col-md-4 col-lg-3 mb-5">
+    
+                    <form class="border mb-10 mb-md-0">
+                        <ul id="filterNav" class="nav nav-filter nav-vertical font-arial font-weight-bold text-dark">
+                            <!--Category-->
+                            <li class="nav-item w-100">
+    
+                                <!-- Toggle -->
+                                <a class="nav-link dropdown-toggle font-size-lg text-reset border-bottom mb-6 collapsed"
+                                   data-toggle="collapse" href="#categoryCollapse" aria-expanded="false">
+                                    Категория
+                                </a>
+    
+                                <!-- Collapse -->
+                                <div class="collapse" id="categoryCollapse" style="">
+                                    <div class="form-group">
+                                        <ul id="categoryNav" class="simple-bar list-unstyled mb-0 pt-2" data-simplebar
+                                            style="max-height: 155px">
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none active" href="#">
+                                                    Все
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    100% хлопок
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Трикотаж
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Шерсть
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Джинсовый
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Составной
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Все
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    100% хлопок
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Трикотаж
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Шерсть
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Джинсовый
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Составной
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                            </li>
+                            <!--Size-->
+                            <li class="nav-item w-100">
+    
+                                <!-- Toggle -->
+                                <a class="nav-link font-size-lg text-reset border-bottom mb-6"
+                                   href="#ziseCollapse">
+                                    <span class="d-flex flex-row justify-content-between">
+                                       Размер
+                                        <!--Select-->
+                                        <select class="js-example-basic-single" name="state">
+                                            <option value="56">
+                                                56
+                                            </option>
+                                            <option value="46">
+                                                46
+                                            </option>
+                                            <option value="12">
+                                                12
+                                            </option>
+                                            <option value="79">
+                                                79
+                                            </option>
+                                            <option value="41">
+                                                41
+                                            </option>
+                                            <option value="5">
+                                                5
+                                            </option>
+                                        </select>
+                                    </span>
+                                </a>
+                            </li>
+                            <!--Color-->
+                            <li class="nav-item w-100">
+    
+                                <!-- Toggle -->
+                                <a class="nav-link font-size-lg text-reset border-bottom"
+                                   href="#colorCollapse">
+                                    <span class="d-flex flex-row justify-content-between align-items-center">
+                                       Цвет
+                                        <!--Select-->
+                                        <select class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                            <option value="Синий">
+                                                Синий
+                                            </option>
+                                            <option value="Красный">
+                                                Красный
+                                            </option>
+                                            <option value="Зеленый">
+                                                Зеленый
+                                            </option>
+                                            <option value="Серый">
+                                                Серый
+                                            </option>
+                                            <option value="Джинсовый">
+                                                Джинсовый
+                                            </option>
+                                            <option value="Чорный">
+                                                Чорный
+                                            </option>
+                                        </select>
+                                    </span>
+                                </a>
+                            </li>
+                            <!--Material-->
+                            <li class="nav-item w-100">
+    
+                                <!-- Toggle -->
+                                <a class="nav-link dropdown-toggle font-size-lg text-reset border-bottom mb-6 collapsed"
+                                   data-toggle="collapse" href="#materialCollapse" aria-expanded="false">
+                                    Материал
+                                </a>
+    
+                                <!-- Collapse -->
+                                <div class="collapse" id="materialCollapse" style="">
+                                    <div class="form-group">
+                                        <ul id="materialNav" class="simple-bar list-unstyled mb-0 pt-2" data-simplebar
+                                            style="max-height: 155px">
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none active" href="#">
+                                                    Все
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    100% хлопок
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Трикотаж
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Шерсть
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Джинсовый
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none " href="#">
+                                                    Составной
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Все
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    100% хлопок
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Трикотаж
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Шерсть
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Джинсовый
+                                                </a>
+                                            </li>
+                                            <li class="simple-bar__item list-styled-item">
+                                                <a class="list-styled-link text-decoration-none" href="#">
+                                                    Составной
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+    
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-link font-arial text-info">Применить фильтр</button>
+                        </div>
+                    </form>
+    
+                </div>
+                <div class="col-12 col-md-8 col-lg-9">
+                    <div class="slider">
+                        <div class="slider__nav">
+                            <div class="container">
+                                <div class="row pb-md-3 position-relative">
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/pullover.png" class="img-fluid card-img-top" alt="pullover"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-info p-2 text-uppercase position-absolute fonts-semi-bold">Новинка</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Свитер в полоску</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/dress.png" class="img-fluid card-img-top" alt="dress"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-warning text-white p-2 text-uppercase position-absolute fonts-semi-bold">Хит продаж</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="4">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Платье с цветочным принтом</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/overalls.png" class="img-fluid card-img-top" alt="overalls"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge  p-2 text-uppercase position-absolute fonts-semi-bold"></span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Джинсовый комбинезон</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section__category-title position-absolute">
+                                        <h5>Похожые товары</h5>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/pullover.png" class="img-fluid card-img-top" alt="pullover"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-info p-2 text-uppercase position-absolute fonts-semi-bold">Новинка</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Свитер в полоску</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/dress.png" class="img-fluid card-img-top" alt="dress"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-warning text-white p-2 text-uppercase position-absolute fonts-semi-bold">Хит продаж</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="4">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Платье с цветочным принтом</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/overalls.png" class="img-fluid card-img-top" alt="overalls"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge  p-2 text-uppercase position-absolute fonts-semi-bold"></span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Джинсовый комбинезон</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row pb-md-3 position-relative">
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/pullover.png" class="img-fluid card-img-top" alt="pullover"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-info p-2 text-uppercase position-absolute fonts-semi-bold">Новинка</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Свитер в полоску</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/dress.png" class="img-fluid card-img-top" alt="dress"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-warning text-white p-2 text-uppercase position-absolute fonts-semi-bold">Хит продаж</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="4">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Платье с цветочным принтом</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/overalls.png" class="img-fluid card-img-top" alt="overalls"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge  p-2 text-uppercase position-absolute fonts-semi-bold"></span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Джинсовый комбинезон</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section__category-title position-absolute">
+                                        <h5>Похожые товары</h5>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/pullover.png" class="img-fluid card-img-top" alt="pullover"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-info p-2 text-uppercase position-absolute fonts-semi-bold">Новинка</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Свитер в полоску</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/dress.png" class="img-fluid card-img-top" alt="dress"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-warning text-white p-2 text-uppercase position-absolute fonts-semi-bold">Хит продаж</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="4">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Платье с цветочным принтом</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/overalls.png" class="img-fluid card-img-top" alt="overalls"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge  p-2 text-uppercase position-absolute fonts-semi-bold"></span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Джинсовый комбинезон</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row pb-md-3 position-relative">
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/pullover.png" class="img-fluid card-img-top" alt="pullover"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-info p-2 text-uppercase position-absolute fonts-semi-bold">Новинка</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Свитер в полоску</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/dress.png" class="img-fluid card-img-top" alt="dress"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-warning text-white p-2 text-uppercase position-absolute fonts-semi-bold">Хит продаж</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="4">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Платье с цветочным принтом</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5 align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/overalls.png" class="img-fluid card-img-top" alt="overalls"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge  p-2 text-uppercase position-absolute fonts-semi-bold"></span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Джинсовый комбинезон</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="section__category-title position-absolute">
+                                        <h5>Похожые товары</h5>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/pullover.png" class="img-fluid card-img-top" alt="pullover"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-info p-2 text-uppercase position-absolute fonts-semi-bold">Новинка</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Свитер в полоску</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/dress.png" class="img-fluid card-img-top" alt="dress"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge badge-warning text-white p-2 text-uppercase position-absolute fonts-semi-bold">Хит продаж</span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="4">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Платье с цветочным принтом</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 mb-5  align-self-stretch">
+                                        <div class="card h-100 shadow-sm">
+                                            <img src="./assets/img/overalls.png" class="img-fluid card-img-top" alt="overalls"
+                                                 style="max-height: 197px">
+                                            <div class="card-body p-0 p-sm-2">
+                                                <span class="badge  p-2 text-uppercase position-absolute fonts-semi-bold"></span>
+                                                <div class="d-flex flex-column justify-content-end">
+                                                    <ul class="list-unstyled list-inline text-center text-warning"
+                                                        data-value="5">
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                        <li class="list-inline-item list-inline-item__rating">
+                                                            <i class="fas fa-star"></i>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="stretched-link  text-dark text-decoration-none">
+                                                        <h6 class="card-title text-center position-relative line-title line-title_center pb-4">
+                                                            Джинсовый комбинезон</h6></a>
+                                                    <p class="text-center font-weight-bold mb-0">123 грн</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section></main>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" data-auto-replace-svg="nest"></script>
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+<script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
